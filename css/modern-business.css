@@ -1,0 +1,35 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+/* FIX CLICK + SCROLL ISSUE */
+
+header {
+  position: relative;
+}
+
+.carousel-item {
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  position: relative;
+  z-index: 1000;
+}
+
+/* Prevent overlay blocking */
+.carousel {
+  z-index: 1;
+}
+
+/* Ensure scrolling works */
+body {
+  overflow: auto !important;
+}
+
+* {
+  pointer-events: auto;
+}
